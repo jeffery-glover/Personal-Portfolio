@@ -1,0 +1,146 @@
+.center {
+    text-align: center;
+}
+
+body {
+    font-family: 'Sanchez', serif;
+}
+
+.font {
+    font-family: 'Sanchez', serif;
+}
+
+p {
+    font-family: 'Sanchez', serif;
+    font-size: 16px;
+}
+
+li {
+    font-family: 'Sanchez', serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*img {
+    padding-top: 20px;
+    padding-bottom:20px;
+}*/
+
+.project-resize {
+    max-width: %;
+    /*display: inline-block;*/
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+
+.impact-color {
+    background-color: #35356c;
+    padding: 20px;
+    color: #01e1ff;
+    font-family: 'Sanchez', serif;
+}
+
+.impact-color-bot {
+    background-color: #ebed03;
+    padding: 20px;
+    color: white;
+    font-family: 'Sanchez', serif;
+}
+
+.background {
+    background-image: url('http://i.imgur.com/tJFsUfm.png?1');
+    background-repeat: no-repeat;
+    background-attachment: none;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+
+}
+
+.t-font {
+    font-family: 'Sanchez', serif;
+    color: #01e1ff;
+}
+
+.p-font {
+    font-family: 'Sanchez', serif;
+    color: #ff009b;
+}
+
+.y-font {
+    font-family: 'Sanchez', serif;
+    color: #ebed03;
+}
+
+.section-font {
+    font-family: 'Sanchez', serif;
+    color: #01e1ff;
+    text-align: center;
+    font-size: 72px;
+}
+
+.section-font-p {
+    font-family: 'Sanchez', serif;
+    color: #ff009b;
+    text-align: center;
+    font-size: 72px;
+}
+
+@media (max-width: 568px) {
+        .section-font {
+    font-size:60px;
+    }
+}
+
+@media (max-width: 568px) {
+        .section-font-p {
+    font-size:48px;
+    }
+}
+
+.background-2 {
+    background-image: url('http://i.imgur.com/fJGkVLy.png?2');
+    background-repeat: no-repeat;
+    background-attachment: none;
+    background-size: contain;
+    height: auto;
+}
+
+.background-3 {
+    background-image: url('http://i.imgur.com/3ZHWy3r.png?5');
+    background-repeat: no-repeat;
+    background-attachment: none;
+    background-size: cover;
+}
+
+.background-4 {
+    background-image: url('http://i.imgur.com/RIz2LkY.png?2');
+    background-repeat: no-repeat;
+    background-attachment: none;
+    background-size: contain;
+}
+
+.background-5 {
+    background-image: url('http://i.imgur.com/rutbtc4.png?1');
+    background-repeat: no-repeat;
+    background-attachment: none;
+    background-size: cover;
+    height: 550px;
+}
+
+@media (max-width: 988px) {
+    .background-5 {
+        height: auto;
+    }
+
+}
+
+.pointer {
+    cursor: pointer;
+    cursor: hand;
+}
+
+#Skills {
+
+}
